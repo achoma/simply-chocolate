@@ -4,6 +4,7 @@
     --orange: #FD9222;
     --light-orange: #FCF1E0;
     --light: #FAFAFA;
+    --white: #fff;
   }
 ul {
     list-style: none;
@@ -20,6 +21,7 @@ a {
     color: var(--dark);
 }
 .container {
+    border:1px solid red;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -27,10 +29,13 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+  section{
+    margin: 0;
+  }
 body {
     background-color: var(--light);
   }
-  /* --------- HEADER --------------------- */
+/* --------- HEADER ------------------------ */
 .header {
     display: flex;
     justify-content: space-between;
@@ -38,19 +43,17 @@ body {
     padding-top: 24px;
     padding-bottom: 36px;
     margin-bottom: 0;
+    padding-left: 0;
  }
 .header-item {
   align-items: center;
-
   display: inline-flex;
   justify-content: flex-start;
   gap: 4px;
+  padding-right: 132px;
+
 }
-.logo-icon{
-  display: flex;
-  align-items: center;
-  /* margin: 8px; */
-}
+
 .header-name { 
     display: inline-flex;
     font-size: 18px;
@@ -79,7 +82,6 @@ body {
 .header-sm {
   display: inline-flex;
   justify-content: flex-end;
-
 }
 .header-sm-icons {
     fill: transparent;
@@ -93,8 +95,24 @@ body {
 .header-sm-icons:focus{
     stroke: var(--orange);
 }
-/* .logo-icons {
-    margin: 8px;
-    width: 24px;
-    height: 24px;
-} */
+/* --------- HERO -------------------------- */
+h1 {
+    display: none;
+}
+.hero {
+  background-size: auto;
+  height: 600px;
+  background-size: cover;
+  border-radius: 16px;
+  padding: 32px;
+  background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(../images/chocolate-hero.jpg);
+}
+.hero-title {
+    width: 484px;
+    height: 102px;
+    color: var(--white);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.21; /* 121.429% */
+    letter-spacing: -0.84px;
+}
