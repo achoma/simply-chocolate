@@ -25,19 +25,19 @@
 </li>
 <li>
 <ul class="header-navi">
-<li><a href="#">Home</a> </li>
-<li><a href="#">How it’s made?</a> </li>
+<li><a href="#Home">Home</a> </li>
+<li><a href="#how-made">How it’s made?</a> </li>
 <li><a href="#">Our products</a></li>
 <li><a href="#">Top sellers</a></li>
 <li><a href="#">Chocolate is loved</a></li>
 </ul></li>
 <li class="header-sm">   
-    <div> <a href="#">
+    <div> <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
         <svg class="header-sm-icons">
           <use href="./images/icons.svg#icon-instagram"></use>
         </svg>
       </a></div>
-      <div> <a href="#">
+      <div> <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">
         <svg class="header-sm-icons">
           <use href="./images/icons.svg#icon-twitter"></use>
         </svg>
@@ -46,34 +46,49 @@
 </ul>
 </header>
 <main>
-    <section class="container">
-    <ul class="hero">
-        <li>    
-        <h1>Hero</h1>
+    <section id="Home" class="hero container">              
+      <h1 class="title-hidden">Hero</h1>
+    <ul class="hero-item">
+    <li >        
+      
         <h2 class="hero-title">Treat yourself or a loved one to <br />
             our finest ingredients for a moment <br />
-            of pure delight!</h2></li> 
-        <li> 
-            <ul>
-                <li><button>Buy now</button></li>
-                <li><button>How it’s made</button></li>
-                </ul></li>
-        <li>scroll down</li>
-        </ul></li> </ul>
-
+            of pure delight!</h2>
+    </li>        
+    <li>
+        <ul class="hero-btns">    
+        <li > 
+            <ul class="hero-btns-item">
+                <li><button type="button" class="buy-btn">Buy now</button></li>
+                <li><button type="button" class="how-made-btn" href="#how-made">How it’s made</button></li>
+                
+            </ul>
+        </li>
+        <li><p>scroll down</p>
+        </li>
+        </ul>
+    </li> 
+    </ul>
     </section>
-    <section>
-        <h2>Advantages</h2>
-        <ul>
-            <li>
+    <section class="container">
+        <h2 class="title-hidden">Advantages</h2>
+        <ul class="advan">
+            <li> <svg 
+                >
+                <use width="32px" height="32px" href="./images/icons.svg#icon-fluent-emoji"></use>
+              </svg>
                 <h3>Unsurpassed taste</h3>
                 <p>Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.</p>
             </li>
-            <li>
+            <li><svg >
+                <use width="32px" height="32px" href="./images/icons.svg#icon-Coin"></use>
+              </svg>
                 <h3>Affordable price</h3>
                 <p>Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and indulge in affordable luxury today.</p>
             </li>
-            <li>
+            <li><svg >
+                <use width="32px" height="32px" href="./images/icons.svg#icon-spoon"></use>
+              </svg>
                 <h3>Own production</h3>
                 <p>We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
             </li>
@@ -92,7 +107,7 @@
             <li>sEMI - SWEET CHOCOLATE</li>
         </ul>
     </section>
-    <section>
+    <section id="how-made">
         <h2>How it’s <span>made?</span></h2>
         <h3>Try  our chocolates today and discover the perfect balance of flavor</h3>
         <ul>
