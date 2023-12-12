@@ -239,23 +239,33 @@ body {
 }
 /* --------- Unique components -------------- */
 .uni-comp {
-  border: 1px solid purple;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0;
+  padding-top: 128px;
+  padding-left: 0;
 }
 .uni-comp-item {
-  border: 1px dotted blue;
   display: flex;
+  width: 486px;
   justify-content: center;
-  margin: 0;
-  flex-shrink: 0;
+  align-items: center;
+  margin: auto;
+}
+.uni-comp-item p{
+  color: var(--dark);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28; 
+  letter-spacing: -0.28px;
+  margin: 0 auto;
+  padding-top: 28px;
+
 }
 .uni-comp-title {
-  width: 411px;
   justify-content: center;
-  border: 1px solid greenyellow;
   color: var(--dark);
   text-align: center;
   font-size: 24px;
@@ -263,14 +273,85 @@ body {
   line-height: 1.16; 
   letter-spacing: -0.72px;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 auto;
+  width: 411px;
 }
 .uni-comp-title span{
   color: #FD9222;
 }
 .uni-comp-box{
-  border: 1px dotted dodgerblue;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 50px 32px 0 32px;
+}
+.uni-comp-box-item {
+  width: 270px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 28px 36px 28px 28px;
+  /* margin: auto; */
+}
+
+.uni-comp-box-1 {
+  border-radius: 15px;
+  background: var(--orange);
+}
+.uni-comp-box-1 p{
+  padding-top: 36px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.28; 
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin: 0;
+}
+.uni-comp-box-2 {
+  border-radius: 15px;
+  border: 1px solid var(--orange);
+  background: var(--white);
+
+}
+.uni-comp-box-2 p{
+  padding-top: 36px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.28; 
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  color: var(--dark);
+  margin: 0;
+} 
+.uni-comp-box-3 {
+  border-radius: 15px;
+  background: #1E1823;
+}
+.uni-comp-box-3 p{
+  padding-top: 36px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.28; 
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin: 0;
+}
+.uni-comp-box-4 {
+  border-radius: 15px;
+  border: 1px solid var(--orange);
+  background: var(--white);
+}
+.uni-comp-box-4 p{
+  padding-top: 36px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.28; 
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  color: var(--dark);
+  margin: 0;
 }
