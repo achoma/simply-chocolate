@@ -262,7 +262,6 @@ body {
   letter-spacing: -0.28px;
   margin: 0 auto;
   padding-top: 28px;
-
 }
 .uni-comp-title {
   justify-content: center;
@@ -293,7 +292,6 @@ body {
   justify-content: center;
   align-items: flex-start;
   padding: 28px 36px 28px 28px;
-  /* margin: auto; */
 }
 
 .uni-comp-box-1 {
@@ -354,4 +352,10 @@ body {
   text-transform: uppercase;
   color: var(--dark);
   margin: 0;
+}
+/* --------- How it’s made ------------------ */
+.made-video {
+  border: 2px dotted greenyellow;
+  border-radius: 15px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(<path-to-image>), lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
 }
