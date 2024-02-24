@@ -23,7 +23,7 @@ a {
   color: var(--dark);
 }
 .container {
-  /* border:1px solid red; */
+  border:1px solid red;
   display: flex;
   flex-direction: column;
   width: 100%;
