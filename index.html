@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-<header class="container">
+<header >
+    <div class="container">
 <ul class="header">
 <li class="header-name header-item"><p ><span>SIMPLY</span> CHOCOLATE</p>
     <svg width="24px" height="24px" >
@@ -45,9 +46,11 @@
       </a></div>
 </li>
 </ul>
+</div>
 </header>
 <main>
-    <section id="Home" class="hero container">              
+<section id="Home" >    
+        <div class="hero container">        
       <h1 class="title-hidden">Hero</h1>
     <ul class="hero-item">
     <li >        
@@ -70,8 +73,10 @@
         </ul>
     </li> 
     </ul>
-    </section>
-    <section class="container">
+    </div>  
+</section>
+<section id="Advantages" class="advantages">
+        <div class="container"> 
         <h2 class="title-hidden">Advantages</h2>
         <ul class="advan">
             <li class="advan-box"> <div class="advan-icon"><svg  class="advan-icon-item" >
@@ -95,8 +100,10 @@
                 <p>We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
             </li>
         </ul>
-    </section>
-    <section class="container">
+    </div>
+</section>
+<section id="Components">
+        <div class="container">
     <ul class="uni-comp">
         <li class="uni-comp-item">
         <div >
@@ -182,8 +189,10 @@
         </ul>
         </li>
     </ul>
-    </section>
-    <section id="how-made" class="container">
+    </div>
+</section>
+<section id="how-made" >
+        <div class="container"> 
     <ul class="made-box">    
         <li>  
             <h2>How it’s <span>made?</span></h2>
@@ -201,7 +210,7 @@
                         preload="auto"
                     ></video>
                 </li> 
-                <li>
+                <li class="made-box-li">
                     <h3>Try  our chocolates today and discover the perfect balance of flavor</h3>
                         <ul>
                             <li>Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.</li>
@@ -214,11 +223,92 @@
             </ul>
         </li> 
     </ul>
-    </section>
-    <section>
+    </div>
+</section>
+    <section id="our-products" class="products"
+    aria-labelledby="slides-heading">
+        <div class="container">
         <h2>Our <span>pRODUCTS</span></h2>
-        ... in pregress
-    </section>
+    <div>
+        <div class="products-box">
+<ul class="products-list splide__list">
+    <li><div class="products-box-item">
+          <img
+                src="images/image1.jpg"
+                alt="bar of chocolate"
+                width="230" height="201"/>
+          <h3>Orange</h3>
+          <p>Dark chocolate</p>
+          <h4>45 UAH</h4>
+    </div></li>
+    <li><div class="products-box-item">
+          <img
+               src="images/image2.jpg"
+               alt="bar of chocolate"
+               width="230" height="201"/>
+            <h3>apple&cranberry</h3>
+            <p>Milk chocolate</p>
+            <h4>50 UAH</h4>
+    </div></li>  
+    <li><div class="products-box-item">
+          <img
+                 src="images/image3.jpg"
+                 alt="bar of chocolate"
+                 width="230" height="201"/>
+            <h3>lime& sea salt</h3>
+            <p>Dark chocolate</p>
+            <h4>66 UAH</h4>
+    </div></li>
+    <li><div class="products-box-item">
+        <img
+               src="images/image4.jpg"
+               alt="bar of chocolate"
+               width="230" height="201"/>
+          <h3>pineapple</h3>
+          <p>Dark chocolate</p>
+          <h4>54 UAH</h4>
+    </div></li>
+    <li><div class="products-box-item">
+        <img
+               src="images/image5.jpg"
+               alt="bar of chocolate"
+               width="230" height="201"/>
+          <h3>classic</h3>
+          <p>Milk chocolate</p>
+          <h4>45 UAH</h4>
+    </div></li>
+    <li><div class="products-box-item">
+        <img
+               src="images/image6.jpg"
+               alt="bar of chocolate"
+               width="230" height="201"/>
+          <h3>honey</h3>
+          <p>Milk chocolate</p>
+          <h4>50 UAH</h4>
+    </div></li>
+    <li><div class="products-box-item">
+        <img
+               src="images/image7.jpg"
+               alt="bar of chocolate"
+               width="230" height="201"/>
+          <h3>roasted fruits</h3>
+          <p>Dark chocolate</p>
+          <h4>66 UAH</h4>
+    </div></li>
+    <li><div class="products-box-item">
+        <img
+               src="images/image8.jpg"
+               alt="bar of chocolate"
+               width="230" height="201"/>
+          <h3>classic</h3>
+          <p>White chocolate</p>
+          <h4>54 UAH</h4>
+    </div></li>
+</ul>
+    
+        </div>
+        <div class="products-pagination"></div>    
+    </div></section>
     <section>
         <h2><span>tOp</span> Sellers</h2>
         <ul>
@@ -269,5 +359,7 @@
         </ul>
     </ul>
 </footer>
+
+
   </body>
   </html>
